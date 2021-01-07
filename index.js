@@ -13,16 +13,17 @@ app.use(express.json());
 
 //ROUTES
 app.use("/auth", require("./routes/jwtAuth"));
-app.use("/api/dashboard", require("./routes/dashboard"));
+app.use("/dashboard", require("./routes/dashboard"));
+
+app.use(express.static("./client/build"));
+
+app.get("*", (req, res) => {
+  res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
+});
 
 if (process.env.NODE_ENV === "production") {
   //serve static content
   //npm run build
-  app.use(express.static("./client/build"));
-
-  app.get("*", (req, res) => {
-    res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
-  });
 }
 
 app.listen(PORT, () => {

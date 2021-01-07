@@ -16,7 +16,7 @@ const Dashboard = ({ setAuth }) => {
 
   const getProfile = async () => {
     try {
-      const res = await fetch("api/dashboard", {
+      const res = await fetch("/dashboard", {
         method: "GET",
         headers: { jwt_token: localStorage.token },
       });
@@ -30,15 +30,11 @@ const Dashboard = ({ setAuth }) => {
     }
   };
 
-  useEffect(() => {
-    getProfile();
-  }, []);
-
   const updateProfile = async (palette) => {
     try {
       const body = { palette };
       console.log(body);
-      await fetch("api/dashboard", {
+      await fetch("/dashboard", {
         method: "POST",
         headers: {
           "Content-type": "application/json",
@@ -50,6 +46,10 @@ const Dashboard = ({ setAuth }) => {
       console.error(error.message);
     }
   };
+
+  useEffect(() => {
+    getProfile();
+  }, []);
 
   const logout = (e) => {
     e.preventDefault();
