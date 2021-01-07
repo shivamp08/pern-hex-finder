@@ -12,7 +12,7 @@ app.use(cors());
 app.use(express.json());
 
 //ROUTES
-app.use("/api/auth", require("./routes/jwtAuth"));
+app.use("/auth", require("./routes/jwtAuth"));
 app.use("/api/dashboard", require("./routes/dashboard"));
 
 if (process.env.NODE_ENV === "production") {

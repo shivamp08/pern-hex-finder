@@ -26,9 +26,8 @@ function App() {
   };
 
   async function isAuth() {
-    console.log(localStorage.token);
     try {
-      const res = await fetch("api/auth/verify", {
+      const res = await fetch("auth/verify", {
         method: "GET",
         headers: { jwt_token: localStorage.token },
       });
@@ -42,7 +41,6 @@ function App() {
   }
 
   useEffect(() => {
-    console.log("was here");
     isAuth();
   }, []);
 
