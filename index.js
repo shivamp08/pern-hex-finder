@@ -13,7 +13,7 @@ app.use(express.json());
 
 //ROUTES
 app.use("/api/auth", require("./routes/jwtAuth"));
-app.use("/dashboard", require("./routes/dashboard"));
+app.use("/api/dashboard", require("./routes/dashboard"));
 
 if (process.env.NODE_ENV === "production") {
   //serve static content
