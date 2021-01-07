@@ -30,6 +30,10 @@ const Dashboard = ({ setAuth }) => {
     }
   };
 
+  useEffect(() => {
+    getProfile();
+  }, []);
+
   const updateProfile = async (palette) => {
     try {
       const body = { palette };
@@ -46,10 +50,6 @@ const Dashboard = ({ setAuth }) => {
       console.error(error.message);
     }
   };
-
-  useEffect(() => {
-    getProfile();
-  }, []);
 
   const logout = (e) => {
     e.preventDefault();

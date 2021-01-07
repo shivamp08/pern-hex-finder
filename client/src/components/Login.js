@@ -47,7 +47,7 @@ const Login = ({ setAuth }) => {
 
     try {
       const body = { email, password };
-      const res = await fetch("/auth/login", {
+      const res = await fetch("api/auth/login", {
         method: "POST",
         headers: {
           "Content-type": "application/json",
