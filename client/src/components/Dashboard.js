@@ -16,7 +16,7 @@ const Dashboard = ({ setAuth }) => {
 
   const getProfile = async () => {
     try {
-      const res = await fetch("/dashboard", {
+      const res = await fetch("/api/dashboard", {
         method: "GET",
         headers: { jwt_token: localStorage.token },
       });
@@ -34,7 +34,7 @@ const Dashboard = ({ setAuth }) => {
     try {
       const body = { palette };
       console.log(body);
-      await fetch("/dashboard", {
+      await fetch("/api/dashboard", {
         method: "POST",
         headers: {
           "Content-type": "application/json",
