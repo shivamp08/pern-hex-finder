@@ -16,6 +16,12 @@ To learn more about Full-Stack web development and user Authentication/Authoriza
 
 ## Features
 
+- Color Picker - displaying HEX/RGBA values of select color.
+- Checkboard Component - displaying the color, including opacity.
+- Palette - Collection of all selected colors.
+- CopyHex - Copies Hex to Clipboard.
+- Random - Randomly generates a color.
+
 ## Built With
 
 This project was built using the PERN stack, which includes:
