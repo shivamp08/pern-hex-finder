@@ -19,8 +19,9 @@ To learn more about Full-Stack web development and user Authentication/Authoriza
 - **Color Picker**: displaying HEX/RGBA values of selected color.
 - **Checkboard Component**: displaying the color, including opacity.
 - **Palette**: Collection of all selected colors.
-- **CopyHex**: Copies Hex to Clipboard.
+- **CopyHex**: Copies hex to clipboard.
 - **Random**: Randomly generates a color.
+- Dynamic User Interface.
 
 ## Built With
 
