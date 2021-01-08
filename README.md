@@ -14,6 +14,8 @@ Can be used along with HTML/CSS to design websites.
 
 To learn more about Full-Stack web development and user Authentication/Authorization, via the PERN stack and JSON Web Token.
 
+## Features
+
 ## Built With
 
 This project was built using the PERN stack, which includes:
@@ -23,7 +25,7 @@ This project was built using the PERN stack, which includes:
 - [React](https://reactjs.org/)
 - [Nodejs](https://nodejs.org/en/)
 
-**React** was used for Front-End Development.\
+**React** was used for Front-End Development, along with [Bootstrap](https://getbootstrap.com).\
 **Express.js** and **PostgreSQL** were used to implement the RESTful API.\
 [JSON Web Token](https://nodejs.org/en/) was used for user authentication/authorization.
 
