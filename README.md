@@ -6,7 +6,7 @@
   </a>
 </p>
 
-Interactive tool to create palettes and get color codes in the Hexadecimal and or RGBA format. Palettes of Registered users are saved onto a database, so that they can refer to it multiple times without losing colors.
+Interactive tool to create palettes and get color codes in the Hexadecimal and or RGBA format. Palettes of registered users are saved onto a database, so that they can refer to it multiple times without losing any colors.
 
 Can be used along with HTML/CSS to design websites.
 
