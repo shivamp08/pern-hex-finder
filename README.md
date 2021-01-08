@@ -6,7 +6,7 @@
   </a>
 </p>
 
-Interactive tool to create palettes and get color codes in the Hexadecimal and or RGBA format.
+Interactive tool to create palettes and get color codes in the Hexadecimal and or RGBA format. Palettes of Registered users are saved onto a database, so that they can refer to it multiple times without losing colors.
 
 Can be used along with HTML/CSS to design websites.
 
@@ -18,7 +18,7 @@ To learn more about Full-Stack web development and user Authentication/Authoriza
 
 - **Color Picker**: displaying HEX/RGBA values of selected color.
 - **Checkboard Component**: displaying the color, including opacity.
-- **Palette**: Collection of all selected colors.
+- **Palette**: Collection of all selected colors. (Saved to )
 - **CopyHex**: Copies hex to clipboard.
 - **Random**: Randomly generates a color.
 - Dynamic User Interface.
