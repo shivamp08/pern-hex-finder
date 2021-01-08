@@ -22,10 +22,9 @@ This project was built using the PERN stack, which includes:
 - [Express.js](https://expressjs.com/)
 - [React](https://reactjs.org/)
 - [Nodejs](https://nodejs.org/en/)
-- [JSON Web Token](https://nodejs.org/en/)
 
-[React](https://reactjs.org/) was used for Front-End Development.\
-[Express.js](https://expressjs.com/) and [PostgreSQL](https://www.postgresql.org/) were used to implement the RESTful API.\
+**React** was used for Front-End Development.\
+**Express.js** and **PostgreSQL** were used to implement the RESTful API.\
 [JSON Web Token](https://nodejs.org/en/) was used for user authentication/authorization.
 
 ## Screenshot
