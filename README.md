@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/shivamp08/pern-hex-finder">
-    <img src="client/screenshots/logo.png" alt="Logo" width="80" height="80">
+    <img src="client/screenshots/logo.png" alt="Logo">
   </a>
 </p>
 
