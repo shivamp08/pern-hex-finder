@@ -36,7 +36,7 @@ This project was built using the PERN stack, which includes:
 **Express.js** and **PostgreSQL** were used to implement the RESTful API.\
 [JSON Web Token](https://nodejs.org/en/) was used for user authentication/authorization.
 
-## Installation Setup
+## Installation
 
 ```bash
 # get the project
