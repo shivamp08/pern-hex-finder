@@ -36,6 +36,20 @@ This project was built using the PERN stack, which includes:
 **Express.js** and **PostgreSQL** were used to implement the RESTful API.\
 [JSON Web Token](https://nodejs.org/en/) was used for user authentication/authorization.
 
+## Installation Setup
+
+```bash
+# get the project
+$ git clone https://github.com/shivamp08/pern-hex-finder
+
+# install dependencies
+$ npm install
+
+# run start (using react-scripts - default port: 3000)
+$ npm start
+
+```
+
 ## Screenshot
 
 ![dashboard](client/screenshots/dashboard.png)
