@@ -45,7 +45,7 @@ $ git clone https://github.com/shivamp08/pern-hex-finder
 # install dependencies
 $ npm install
 
-# run start (using react-scripts - default port: 3000)
+# run start (using react-scripts - default port: 5000)
 $ npm start
 
 ```
